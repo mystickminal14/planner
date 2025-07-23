@@ -7,7 +7,9 @@ const placesContainer = document.getElementById('places-container');
 const recommendations = {
     nature: ['Pokhara', 'Chitwan National Park', 'Rara Lake'],
     adventure: ['Pokhara', 'Annapurna Base Camp', 'Bhote Koshi'],
-    historical: ['Pokhara', 'Lumbini', 'Kathmandu Durbar Square']
+    historical: ['Pokhara', 'Lumbini', 'Kathmandu Durbar Square'],
+    culture: [ 'Bhaktapur Durbar Square']
+
 };
 
 async function fetchImage(placeName, category) {
